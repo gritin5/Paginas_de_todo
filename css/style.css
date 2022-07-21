@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Fredoka One', cursive;
+}
+.header_html{
+    background-image: radial-gradient(circle at 49.61% 45.49%, #e5ac2f 0, #e9a129 12.5%, #ed9623 25%, #f18920 37.5%, #f37b1f 50%, #f56c21 62.5%, #f75c26 75%, #f84b2c 87.5%, #f93634 100%);
+}
+.header_media{
+    background-image: radial-gradient(circle at 50% 50%, #95fbff 0, #7aecff 25%, #5adcfc 50%, #2dccf1 75%, #00bee7 100%);
+}
+.header_turn{
+    background-image: radial-gradient(circle at 48.48% 51.52%, #ffff97 0, #ffff74 25%, #f3ee4d 50%, #cfd51c 75%, #aebe00 100%);
+}
+.header_animate{
+    background-image: radial-gradient(circle at 50% 50%, #9fffc1 0, #7effbe 25%, #4df3b8 50%, #00e5b4 75%, #00d9b4 100%);
+}
+.header_wow{
+    background-image: radial-gradient(circle at 50% 50%, #fb69ff 0, #e55cfa 25%, #cc4df3 50%, #b13fec 75%, #9735e7 100%);
+}
+.titulo_semantica{
+    display:flex;
+    justify-content: center;
+}
+.imagen_html_titulo{
+    display:block;
+    margin: 0px auto;
+    width: 20vh;
+}
+.imagen_media_titulo{
+    display:block;
+    margin: 0px auto;
+    width: 40vh;
+}
+.imagen_turn_titulo{
+    display:block;
+    margin: 0px auto;
+    width: 40vh;
+}
+.imagen_animate_titulo{
+    display:block;
+    margin: 0px auto;
+    width: 80vh;
+}
+.imagen_wow_titulo{
+    display:block;
+    margin: 0px auto;
+    width: 30vh;
+}
+.navbar_html{
+    background-image: radial-gradient(circle at 49.61% 45.49%, #e5ac2f 0, #e9a129 12.5%, #ed9623 25%, #f18920 37.5%, #f37b1f 50%, #f56c21 62.5%, #f75c26 75%, #f84b2c 87.5%, #f93634 100%);
+}
+.navbar_media{
+    background-image: radial-gradient(circle at 50% 50%, #95fbff 0, #7aecff 25%, #5adcfc 50%, #2dccf1 75%, #00bee7 100%);
+}
+.navbar_turn{
+    background-image: radial-gradient(circle at 48.48% 51.52%, #ffff97 0, #ffff74 25%, #f3ee4d 50%, #cfd51c 75%, #aebe00 100%);
+}
+.navbar_animate{
+    background-image: radial-gradient(circle at 50% 50%, #9fffc1 0, #7effbe 25%, #4df3b8 50%, #00e5b4 75%, #00d9b4 100%);
+}
+.navbar_wow{
+    background-image: radial-gradient(circle at 50% 50%, #fb69ff 0, #e55cfa 25%, #cc4df3 50%, #b13fec 75%, #9735e7 100%);
+}
+.imagen_etiquetas{
+    width: 100vh;
+}
+.body_etiquetas{
+    background-image: radial-gradient(circle at 49.61% 45.49%, #e5ac2f 0, #e9a129 12.5%, #ed9623 25%, #f18920 37.5%, #f37b1f 50%, #f56c21 62.5%, #f75c26 75%, #f84b2c 87.5%, #f93634 100%);  
+}
+.body_media{
+    background-image: radial-gradient(circle at 50% 50%, #95fbff 0, #7aecff 25%, #5adcfc 50%, #2dccf1 75%, #00bee7 100%);
+} 
+.body_turn{
+    background-image: radial-gradient(circle at 48.48% 51.52%, #ffff97 0, #ffff74 25%, #f3ee4d 50%, #cfd51c 75%, #aebe00 100%);}
+.body_animate{
+    background-image: radial-gradient(circle at 50% 50%, #9fffc1 0, #7effbe 25%, #4df3b8 50%, #00e5b4 75%, #00d9b4 100%);
+}
+.body_wow{
+    background-image: radial-gradient(circle at 50% 50%, #fb69ff 0, #e55cfa 25%, #cc4df3 50%, #b13fec 75%, #9735e7 100%);
+}
+.caja{
+    display: flex;
+    justify-content: center;
+}
+.button0:hover{
+    border: 2px solid;
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.button1:hover{
+    border: 2px solid;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.button2:hover{
+    border: 2px solid;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.button3:hover{
+    border: 2px solid;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.button4:hover{
+    border: 2px  solid;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.imagen_etiquetas{
+    width: 90vh;
+    height: 60vh;    
+}
+.imagen_animate{
+    background-image: url(/images/animte_mid.png);
+    background-size:contain;
+}
+@media all and (max-width:760px){
+    .imagen_etiquetas{
+        display: flex;
+        width: 50vh;
+        height: 30vh;
+    }
+}
+
+.pagina1{
+    border: 1px black solid;
+    background-image: radial-gradient(circle at 48.48% 51.52%, #ffff97 0, #ffff74 25%, #f3ee4d 50%, #cfd51c 75%, #aebe00 100%);
+    text-align: center;
+    background-repeat: round;
+}
+.imagen_libro1{
+    
+    height: 200px;
+    width: 320px;
+}
+.imagen_wow{
+    width: 45vh;
+    height: 40vh;
+}
